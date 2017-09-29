@@ -1,0 +1,26 @@
+@import "variables";
+body{
+  background-image: url("http://gruszkiewicz.pl/background.gif");
+  background-size: auto;
+  repeat: no-repeat;
+  font-family: $font-stack;
+  font-size:16px;
+  text-align: center;
+  width:70%;
+  margin:1% 15%;
+  color:$font-color;
+}
+li{
+  display:inline;
+  a{
+  color:$font-color;
+  font-weight: bold;
+ }
+}
+nav, article, h1, h2, h3, .map, .faq, #test1{
+  background-color:#fff;
+  font-size:1.5rem;
+
+article{
+  display:flex;
+  justify-content: center;}
