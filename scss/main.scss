@@ -17,10 +17,15 @@ li{
   font-weight: bold;
  }
 }
-nav, article, h1, h2, h3, .map, .faq, #test1{
+nav, article, h1, h2, h3, .map, .faq, #test1, .form_Type{
   background-color:#fff;
   font-size:1.5rem;
-
+}
 article{
   display:flex;
   justify-content: center;}
+.form_Type{
+  margin:25%;
+  min-height:20vw;
+
+}
