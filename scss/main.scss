@@ -16,6 +16,7 @@ li{
   color:$font-color;
   font-weight: bold;
  }
+ 
 }
 nav, article, h1, h2, h3, .map, .faq, #test1, .form_Type{
   background-color:#fff;
@@ -27,5 +28,7 @@ article{
 .form_Type{
   margin:25%;
   min-height:20vw;
-
+}
+form{
+  padding:2em;
 }
