@@ -10,25 +10,23 @@ body{
   margin:1% 15%;
   color:$font-color;
 }
+
 li{
   display:inline;
+}
   a{
   color:$font-color;
   font-weight: bold;
+  text-decoration: none;
+  font-size:2rem;
  }
- 
-}
-nav, article, h1, h2, h3, .map, .faq, #test1, .form_Type{
+
+nav, article, h1, h2, h3, .map, .faq, #test1, .form_Type {
   background-color:#fff;
   font-size:1.5rem;
 }
-article{
-  display:flex;
-  justify-content: center;}
+
 .form_Type{
-  margin:25%;
-  min-height:20vw;
-}
-form{
   padding:2em;
+  margin:25%;
 }
