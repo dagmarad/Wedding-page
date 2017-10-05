@@ -1,51 +1,52 @@
 @import "variables";
 body{
   background-image: url("http://gruszkiewicz.pl/background.gif");
-  background-size: auto;
-  repeat: no-repeat;
   font-family: $font-stack;
   font-size:16px;
   text-align: center;
-  max-width:70%;
-  margin:auto;
   color:$font-color;
   display:flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+article {
+  max-width:70%;
 }
 
 li{
   display:inline;
-}
   a{
-  color:$font-color;
-  font-weight: bold;
-  text-decoration: none;
-  font-size:2rem;
-  padding-right: 3rem;
- }
-
-nav, article, .article, h1, h2, h3, .map, .faq, #test1, .form_Type, .marriage_question  {
+    color: $font-color;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:2rem;
+    padding-right: 3rem;
+  }
+}
+nav, section  {
   background-color:#fff;
   font-size:1.5rem;
-  margin-bottom: 1.5rem;;
+  margin: 1.5rem 0;
+  padding: 1rem 2rem;
+  line-height: 1.25em;
 
 }
 
-.form_Type{
- max-width: 70%;
-  display:inline;
-  margin:20%
-
+h1, h2, h3 {
+  font-size: 1.5rem;
 }
 
-.marriage_question{
-  padding:3%;
-  line-height: 1.75rem;
+a:active, a.active, a:hover {
+    color:#E35830;
 }
-a:active {
-    color: blue;
-}
-a:hover{
-  text-decoration: underline;
+#test1, #test2{
+  span{
+    width:25px;
+    display:inline-block;
+
+  }
 }
