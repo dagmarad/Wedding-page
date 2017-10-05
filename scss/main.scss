@@ -6,9 +6,12 @@ body{
   font-family: $font-stack;
   font-size:16px;
   text-align: center;
-  width:70%;
-  margin:1% 15%;
+  max-width:70%;
+  margin:auto;
   color:$font-color;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 li{
@@ -22,12 +25,27 @@ li{
   padding-right: 3rem;
  }
 
-nav, article, .article, h1, h2, h3, .map, .faq, #test1, .form_Type {
+nav, article, .article, h1, h2, h3, .map, .faq, #test1, .form_Type, .marriage_question  {
   background-color:#fff;
   font-size:1.5rem;
+  margin-bottom: 1.5rem;;
+
 }
 
 .form_Type{
-  padding:2rem;
-  margin:25%;
+ max-width: 70%;
+  display:inline;
+  margin:20%
+
+}
+
+.marriage_question{
+  padding:3%;
+  line-height: 1.75rem;
+}
+a:active {
+    color: blue;
+}
+a:hover{
+  text-decoration: underline;
 }
