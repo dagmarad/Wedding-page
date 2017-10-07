@@ -1,8 +1,10 @@
 @import "variables";
+html {
+  font-size:16px;
+}
 body{
   background-image: url("http://gruszkiewicz.pl/background.gif");
   font-family: $font-stack;
-  font-size:16px;
   text-align: center;
   color:$font-color;
   display:flex;
@@ -14,9 +16,9 @@ body{
 }
 
 article {
-  max-width:70%;
+  max-width:1200px;
 }
-
+ul {padding: 0;}
 li{
   display:inline;
   a{
@@ -24,7 +26,7 @@ li{
     font-weight: bold;
     text-decoration: none;
     font-size:2rem;
-    padding-right: 3rem;
+    padding: 0 1.5rem;
   }
 }
 nav, section  {
@@ -35,8 +37,11 @@ nav, section  {
   line-height: 1.25em;
 
 }
+section{
+  padding:2rem;
+}
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-size: 1.5rem;
 }
 
@@ -49,4 +54,19 @@ a:active, a.active, a:hover {
     display:inline-block;
 
   }
+}
+.faq{
+  text-align:left;
+
+}
+@media screen and (max-width: 1366px) {
+  article {max-width: 70%;}
+}
+@media screen and (max-width: 1024px) {
+	html {font-size: 12px;}
+  article {max-width: 80%;}
+}
+@media screen and (max-width: 480px) {
+	html {font-size: 10px;}
+  article {max-width: 90%;}
 }
