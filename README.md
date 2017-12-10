@@ -1,2 +1,3 @@
 # Wedding-page
-gruszkiewicz.pl
+http://dagmaragruszczynska.pl/weddingpage/
+HTML, CSS, JS
