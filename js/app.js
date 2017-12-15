@@ -47,13 +47,13 @@ function time(mr, element){
 }
 
 var countDown=setInterval(function(){
-  time(new Date(2017, 9, 14, 14), document.querySelector('#test1'));
-  time(new Date(2017, 9, 14, 15), document.querySelector('#test2'));
-  time(new Date(2017, 9, 28, 18), document.querySelector('#test3'));
+  time(new Date(2018, 9, 14, 14), document.querySelector('#test1'));
+  time(new Date(2018, 9, 14, 15), document.querySelector('#test2'));
+  time(new Date(2018, 9, 28, 18), document.querySelector('#test3'));
 }, 1000);
-time(new Date(2017, 9, 14, 14), document.querySelector('#test1'));
-time(new Date(2017, 9, 14, 15), document.querySelector('#test2'));
-time(new Date(2017, 9, 28, 18), document.querySelector('#test3'));
+time(new Date(2018, 9, 14, 14), document.querySelector('#test1'));
+time(new Date(2018, 9, 14, 15), document.querySelector('#test2'));
+time(new Date(2018, 9, 28, 18), document.querySelector('#test3'));
 
 
 
